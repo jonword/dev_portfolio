@@ -1,0 +1,82 @@
+.skills p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.skills-container {
+  display: flex;
+  margin: 1rem;
+}
+
+/* Icon Grid */
+@media screen and (max-width: 640px) {
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+  .skillsGrid img {
+    height: 50px;
+    width: 50px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+  .skillsGrid img {
+    height: 50px;
+    width: 50px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+  .skillsGrid img {
+    height: 50px;
+    width: 50px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+}
