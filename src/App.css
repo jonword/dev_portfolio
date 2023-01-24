@@ -5,7 +5,7 @@
 }
 
 .main-container {
-  border: 2px solid slategray;
+  /*border: 2px solid slategray;*/
   display: flex;
   flex-direction: column;
   justify-content: center;

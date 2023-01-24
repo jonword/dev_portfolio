@@ -1,10 +1,13 @@
 import React from "react";
+import image from "../../assets/images/IMG_1345.jpg";
 import "./about.css";
 
 const About = () => {
   return (
-    <div className="flex-container" id="home">
-      <div className="image"></div>
+    <div className="flex-container" id="about">
+      <div className="image">
+        <img src={image} height="200" width="350" alt="Jonathan Word" />
+      </div>
       <div className="content">
         <h1 className="page-title">Front End Developer</h1>
         <br></br>

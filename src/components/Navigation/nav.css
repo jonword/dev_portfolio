@@ -40,11 +40,13 @@
   font-size: 1rem;
   border: none;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .nav-list > button:hover {
   background-color: slategray;
   cursor: pointer;
   transition: 300ms;
-  justify-content: flex-start;
+  font-size: 1.1rem;
+  text-decoration: overline;
 }
