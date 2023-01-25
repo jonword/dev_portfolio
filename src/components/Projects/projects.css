@@ -1,4 +1,4 @@
-.card-list {
+/*.card-list {
   display: flex;
   justify-content: center;
   width: 1000px;
@@ -7,9 +7,9 @@
   margin-right: auto;
   padding: 2rem;
   gap: 2rem;
-}
+}*/
 
-.card {
+/*.card {
   display: flex;
   flex-direction: column;
   height: 400px;
@@ -20,9 +20,9 @@
   box-shadow: 4px 2px 3px rgba(117, 129, 147, 0.569);
   background-color: rgb(19, 22, 26);
   border: 1px solid rgb(70, 70, 70);
-}
+}*/
 
-.card-header h3 {
+/*.card-header h3 {
   text-align: center;
   color: whitesmoke;
-}
+}*/

@@ -1,14 +1,13 @@
-.App {
+/*.App {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
-}
+}*/
 
-.main-container {
-  /*border: 2px solid slategray;*/
+/*.main-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 7rem;
   margin-right: 20rem;
-}
+}*/

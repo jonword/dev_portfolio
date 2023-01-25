@@ -1,14 +1,16 @@
 import React from "react";
 import image from "../../assets/images/IMG_1345.jpg";
-import "./about.css";
 
 const About = () => {
   return (
-    <div className="flex-container" id="about">
-      <div className="image">
+    <div
+      className="flex-container flex justify-center items-center w-full mt-12 ml-auto mr-auto p-4"
+      id="about"
+    >
+      <div className="image flex items-center p-4">
         <img src={image} height="200" width="350" alt="Jonathan Word" />
       </div>
-      <div className="content">
+      <div className="content flex flex-col justify-center items-center p-8 flex-wrap text-white">
         <h1 className="page-title">Front End Developer</h1>
         <br></br>
         <p>
