@@ -1,14 +1,13 @@
 import Nav from "./components/Navigation/Nav";
-import "./App.css";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex justify-between gap-12">
       <Nav />
-      <div className="main-container">
+      <div className="main-container flex flex-col justify-center mt-28 mr-80">
         <About />
         <Skills />
         <Projects />
