@@ -8,10 +8,10 @@ import Footer from "../Footer/Footer";
 
 const Nav = () => {
   return (
-    <div className="flex flex-col sticky top-0 left-0 h-screen w-80 bg-sidenav shadow-xl shadow-shadow">
+    <div className="flex flex-col sticky top-0 left-0 h-screen w-96 bg-sidenav shadow-xl shadow-shadow">
       <div className="mt-4 pb-2 pr-4 flex flex-col items-end border-b-2 border-b-shadow">
-        <h2 className="text-white text-3xl">Jonathan Word</h2>
-        <p className="text-subtitle">Frontend Developer</p>
+        <h2 className="text-white text-xl">Jonathan Word</h2>
+        <p className="text-subtitle mb-8 text-sm">Frontend Developer</p>
       </div>
       <nav className="flex flex-col gap-3 pt-2 pb-2">
         <button className="flex items-center gap-2 pl-4 pr-4 bg-none text-white text-xl justify-end w-full hover:bg-navhover hover:cursor-pointer hover:text-lg hover:overline hover:transition-all">

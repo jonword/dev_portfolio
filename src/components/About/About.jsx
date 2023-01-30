@@ -4,20 +4,18 @@ import image from "../../assets/images/station.jpg";
 const About = () => {
   return (
     <div
-      className="flex-container flex justify-center items-center w-full mt-12 ml-auto mr-auto p-4"
+      className="flex-container flex justify-center items-center w-full mt-8 mb-20 ml-auto mr-auto p-4"
       id="about"
     >
-      <div className="image flex items-center p-4">
-        <img src={image} height="200" width="350" alt="Jonathan Word" />
-      </div>
       <div className="content flex flex-col justify-center items-center p-8 flex-wrap text-white">
-        <h1 className="page-title">Front End Developer</h1>
+        <h1 className="page-title text-3xl">
+          Hey, I'm{" "}
+          <span className="font-bold text-subtitle">Jonathan Word</span>!
+        </h1>
         <br></br>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec justo
-          velit, faucibus non bibendum ac, molestie eu nisl. In id finibus nunc,
-          et fringilla ex. Maecenas erat nisl, sodales sit amet ligula sed,
-          vulputate feugiat eros.
+        <p className="text-xl">
+          A self-taught software developer with a passion and a focus on the
+          front-end.
         </p>
       </div>
     </div>

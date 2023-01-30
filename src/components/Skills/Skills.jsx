@@ -20,6 +20,11 @@ const Skills = () => {
               title="CSS 3"
             />
             <Skill
+              source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+              alt="The logo icon for Tailwindcss"
+              title="Tailwindcss"
+            />
+            <Skill
               source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
               alt="The logo icon for JavaScript"
               title="JavaScript"
@@ -28,6 +33,11 @@ const Skills = () => {
               source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
               alt="The logo icon for React"
               title="React"
+            />
+            <Skill
+              source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              alt="The logo icon for TypeScript"
+              title="TypeScript"
             />
             <Skill
               source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
