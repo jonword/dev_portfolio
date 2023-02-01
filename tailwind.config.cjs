@@ -5,11 +5,11 @@ module.exports = {
     screens: {
       sm: "480px",
       md: "768px",
-      lg: "976px",
-      xl: "1440px",
+      lg: "1024px",
+      xl: "1200px",
     },
     colors: {
-      sidenav: "rgba(25, 37, 45, 0.707)",
+      sidenav: "rgb(25, 37, 45)",
       navhover: "rgb(112, 128, 144)",
       main: "rgba(10, 11, 16, 0.897)",
       shadow: "rgba(117, 129, 147, 0.569)",

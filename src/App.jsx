@@ -5,9 +5,9 @@ import About from "./components/About/About";
 
 function App() {
   return (
-    <div className="App flex justify-between gap-12">
+    <div className="App flex">
       <Nav />
-      <div className="main-container flex flex-col justify-center mt-28 mr-80 w-full border border-shadow">
+      <div className="main-container mt-26 flex w-full shrink flex-col  gap-96 pt-40 pb-40">
         <About />
         <Skills />
         <Projects />

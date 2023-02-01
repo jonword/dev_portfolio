@@ -4,10 +4,10 @@ import image from "../../assets/images/station.jpg";
 const About = () => {
   return (
     <div
-      className="flex-container flex justify-center items-center w-full mt-8 mb-20 ml-auto mr-auto p-4"
+      className="flex-container mt-8 mb-20 ml-auto mr-auto flex w-full items-center justify-center p-4"
       id="about"
     >
-      <div className="content flex flex-col justify-center items-center p-8 flex-wrap text-white">
+      <div className="content flex flex-col flex-wrap items-center justify-center p-8 text-white">
         <h1 className="page-title text-3xl">
           Hey, I'm{" "}
           <span className="font-bold text-subtitle">Jonathan Word</span>!
