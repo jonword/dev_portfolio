@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App flex">
       <Nav />
-      <div className="main-container mt-26 flex w-full shrink flex-col  gap-96 pt-40 pb-40">
+      <div className="main-container mt-26 mx-4 flex w-full shrink flex-col gap-96 border border-white pt-40 pb-40">
         <About />
         <Skills />
         <Projects />

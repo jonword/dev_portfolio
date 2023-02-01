@@ -6,11 +6,11 @@ const Projects = () => {
   return (
     <>
       <section
-        className="card-list w-100% mt-20 ml-auto mr-auto flex flex-col justify-center gap-10 p-8 md:flex-row"
+        className="card-list w-100% mt-20 ml-auto mr-auto flex flex-col justify-center gap-10 p-8 lg:flex-row"
         id="projects"
       >
         {/*REDDIT PROJECT */}
-        <article className="card flex  h-[450px] w-[450px] shrink flex-col border border-subtitle bg-projects shadow-lg shadow-shadow">
+        <article className="card flex  h-[450px] w-[400px] shrink flex-col border border-subtitle bg-projects shadow-lg shadow-shadow">
           <header className="card-header text-center text-white">
             <h3 className="mt-2">Reddit Client App</h3>
             <img src={reddit} className="mt-4 mb-2 pl-2 pr-2" />
@@ -44,7 +44,7 @@ const Projects = () => {
         </article>
 
         {/*E-COMMERCE PROJECT */}
-        <article className="card flex  h-[450px] w-[450px] shrink flex-col border border-subtitle bg-projects shadow-lg shadow-shadow">
+        <article className="card flex  h-[450px] w-[400px] shrink flex-col border border-subtitle bg-projects shadow-lg shadow-shadow">
           <header className="card-header text-center text-white">
             <h3 className="mt-2">E-Commerce Product Page</h3>
             <img src={ecommerce} className="mt-4 mb-2 pl-2 pr-2" />
@@ -77,7 +77,7 @@ const Projects = () => {
           </header>
         </article>
         {/* PROJECT */}
-        <article className="card flex  h-[450px] w-[450px] shrink flex-col border border-subtitle bg-projects shadow-lg shadow-shadow">
+        <article className="card flex  h-[450px] w-[400px] shrink flex-col border border-subtitle bg-projects shadow-lg shadow-shadow">
           <header className="card-header text-center text-white">
             <h3 className="mt-2">E-Commerce Product Page</h3>
             <img className=" mt-4 mb-2 pl-2 pr-2" />

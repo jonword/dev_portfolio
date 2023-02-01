@@ -71,13 +71,13 @@ const Nav = () => {
         onClick={handleClick}
         className="z-10 flex items-center justify-center pr-4 text-2xl text-white hover:cursor-pointer md:hidden"
       >
-        {nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* MOBILE */}
       <ul
         className={
-          nav
+          !nav
             ? "hidden"
             : "absolute top-0 left-0 flex h-screen w-full flex-col items-center justify-center bg-sidenav"
         }

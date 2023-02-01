@@ -21,7 +21,7 @@ const Sidebar = () => {
           >
             <FaGithub className="icon-github text-3xl text-white transition-all hover:text-github" />
           </a>
-          <a href="mailto:jonword0@gmail.com">
+          <a href="mailto:jonathanword.dev@gmail.com">
             <RiMailSendLine className="email text-3xl text-white transition-all hover:text-email" />
           </a>
         </div>
