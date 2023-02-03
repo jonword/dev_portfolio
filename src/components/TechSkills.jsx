@@ -14,9 +14,11 @@ const TechSkills = () => {
       {/* CONTAINER */}
       <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col items-center justify-center p-4 text-white">
         <p className="inline text-4xl font-bold ">Skills</p>
-        <p className="py-4">I have experience with these technologies</p>
+        <p className="py-4">
+          As a frontend developer, I have experience with these technologies.
+        </p>
 
-        <div className="flex flex-wrap gap-2">
+        <div className="grid grid-cols-2 gap-6 md:grid-cols-4">
           <div>
             <img src={htmlImg} className="h-16 w-16" />
           </div>
