@@ -9,7 +9,6 @@ const Projects = () => {
         <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col justify-center p-4 text-white">
           <p className="text-center text-4xl font-bold">Projects</p>
           <div className="flex shrink flex-col items-center justify-center gap-12 p-4 lg:flex-row">
-            {/* map over projectData */}
             {projectData.map((project) => (
               <Project
                 key={project.id}
