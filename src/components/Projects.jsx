@@ -21,12 +21,9 @@ const Projects = () => {
                 className="mt-4 mb-2 pl-2 pr-2"
               />
               <p className="mb-2 text-sm italic text-navhover">
-                Tools used: HTML/JSX, CSS, React, Redux
+                Tools used: React, Redux, CSS
               </p>
-              <p className="text-center">
-                A responsive web-page that allows you to add the item to your
-                cart and updates the cart accordingly.
-              </p>
+              <p className="text-center">A light version of the Reddit app.</p>
               <div className="mt-16 flex justify-center gap-6 pb-2">
                 <p className="underline hover:text-subtitle">
                   <a
@@ -59,7 +56,7 @@ const Projects = () => {
                 className="mt-4 mb-2 pl-2 pr-2"
               />
               <p className="mb-2 text-sm italic text-navhover">
-                Tools used: HTML/JSX, CSS, React, Redux
+                Tools used: React, TypeScript, Redux, CSS
               </p>
               <p className="text-center">
                 A responsive web-page that allows you to add the item to your
@@ -80,35 +77,6 @@ const Projects = () => {
                     href="https://github.com/jonword/e-commerce-page"
                     target="_blank"
                   >
-                    Repo
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* PROJECT */}
-            <div className="card flex  h-full max-h-[400px] w-full max-w-[400px] shrink flex-col items-center justify-center border border-subtitle bg-projects p-2 shadow-lg shadow-shadow">
-              <header className="card-header text-center text-white">
-                <h3 className="mt-2">Project Title</h3>
-              </header>
-              <img
-                src={portfolio}
-                alt="project"
-                className="mt-4 mb-2 pl-2 pr-2"
-              />
-              <p className="mb-2 text-sm italic text-navhover">
-                Tools used: Goes here
-              </p>
-              <p className="text-center">Project description goes here.</p>
-              <div className="mt-16 flex justify-center gap-6 pb-2">
-                <p className="underline hover:text-subtitle">
-                  <a href="/" target="_blank">
-                    Live
-                  </a>
-                </p>
-
-                <p className="underline hover:text-subtitle">
-                  <a href="/" target="_blank">
                     Repo
                   </a>
                 </p>
