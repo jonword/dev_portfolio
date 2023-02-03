@@ -12,7 +12,7 @@ const Project = (props) => {
       <p className="mb-2 text-sm italic text-navhover">
         Tools used: {techList}
       </p>
-      <p className="text-center">{description}</p>
+      <p className="pb-4 text-center">{description}</p>
       <div className="flex justify-center gap-6 pb-1">
         <p className="underline hover:text-subtitle">
           <a href={live} target="_blank" rel="noreferrer">
