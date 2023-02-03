@@ -2,12 +2,6 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    /*screens: {
-      sm: "375px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1200px",
-    },*/
     colors: {
       sidenav: "rgb(25, 37, 45)",
       navhover: "rgb(112, 128, 144)",
@@ -17,6 +11,7 @@ module.exports = {
       subtitle: "rgb(99, 197, 189)",
       linkedin: "rgb(0, 119, 181)",
       email: "rgb(78, 156, 117)",
+      github: "#6E5494",
       projects: "rgb(19, 22, 26)",
       ts: "#3178C6",
       react: "#61DBFB",

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Sidebar from "./Sidebar";
-import { BsFillTerminalFill } from "react-icons/bs";
+import { FaDev } from "react-icons/fa";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
@@ -12,7 +11,7 @@ const Nav = () => {
   return (
     <header className="fixed top-0 flex h-20 w-full justify-between bg-sidenav shadow-lg shadow-shadow">
       <div className="mt-4 flex flex-col pl-4 pb-2 pr-4 text-subtitle">
-        <BsFillTerminalFill size={40} />
+        <FaDev size={40} />
       </div>
 
       {/* MENU */}
@@ -134,9 +133,6 @@ const Nav = () => {
           </button>
         </li>
       </ul>
-
-      {/* SOCIAL ICONS */}
-      <Sidebar />
     </header>
   );
 };
