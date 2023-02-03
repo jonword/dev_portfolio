@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { AiTwotoneHome } from "react-icons/ai";
-import { GiStrong } from "react-icons/gi";
-import { BsFillGrid1X2Fill } from "react-icons/bs";
-import { GrMail } from "react-icons/gr";
-import Footer from "../Sidebar/Sidebar";
+import Sidebar from "./Sidebar";
+import { BsFillTerminalFill } from "react-icons/bs";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
@@ -13,36 +10,34 @@ const Nav = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <header className="fixed flex h-20 w-full justify-between bg-sidenav shadow-lg shadow-shadow">
-      <div className="mt-4 flex flex-col pl-4 pb-2 pr-4">
-        <h2 className="text-xl text-white">Jonathan Word</h2>
-        <p className="mb-8 text-sm text-subtitle">Frontend Developer</p>
+    <header className="fixed top-0 flex h-20 w-full justify-between bg-sidenav shadow-lg shadow-shadow">
+      <div className="mt-4 flex flex-col pl-4 pb-2 pr-4 text-subtitle">
+        <BsFillTerminalFill size={40} />
       </div>
+
       {/* MENU */}
-      <ul className="hidden items-center justify-center gap-3 pt-2 pb-2 md:flex">
+      <ul className="hidden items-center justify-center pt-2 pb-2 md:flex">
         <li>
-          <button className="flex w-full items-center justify-end gap-2 bg-none px-4 text-xl text-white hover:cursor-pointer hover:bg-navhover hover:text-lg hover:overline hover:transition-all">
-            <AiTwotoneHome />
+          <button className="flex w-full items-center justify-end  bg-none px-4 text-xl text-white hover:cursor-pointer hover:text-xl hover:overline hover:transition-all">
             <Link
-              to="about"
+              to="home"
               spy={true}
               smooth={true}
               offset={-100}
               duration={500}
             >
-              <p>About</p>
+              <p>Home</p>
             </Link>
           </button>
         </li>
 
         <li>
-          <button className="flex w-full items-center justify-end gap-2 bg-none px-4 text-xl text-white hover:cursor-pointer hover:bg-navhover hover:text-lg hover:overline hover:transition-all">
-            <GiStrong />
+          <button className="flex w-full items-center justify-end  bg-none px-4 text-xl text-white hover:cursor-pointer  hover:text-xl hover:overline hover:transition-all">
             <Link
               to="skills"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-150}
               duration={500}
             >
               <p>Skills</p>
@@ -51,16 +46,28 @@ const Nav = () => {
         </li>
 
         <li>
-          <button className="flex w-full items-center justify-end gap-2 bg-none px-4 text-xl text-white hover:cursor-pointer hover:bg-navhover hover:text-lg hover:overline hover:transition-all">
-            <BsFillGrid1X2Fill />
+          <button className="flex w-full items-center justify-end  bg-none px-4 text-xl text-white hover:cursor-pointer  hover:text-xl hover:overline hover:transition-all">
             <Link
               to="projects"
+              spy={true}
+              smooth={true}
+              offset={-75}
+              duration={500}
+            >
+              <p>Projects</p>
+            </Link>
+          </button>
+        </li>
+        <li>
+          <button className="flex w-full items-center justify-end bg-none px-4 text-xl text-white hover:cursor-pointer  hover:text-xl hover:overline hover:transition-all">
+            <Link
+              to="contact"
               spy={true}
               smooth={true}
               offset={-50}
               duration={500}
             >
-              <p>Projects</p>
+              <p>Contact</p>
             </Link>
           </button>
         </li>
@@ -84,7 +91,6 @@ const Nav = () => {
       >
         <li>
           <button className=" flex w-full items-center gap-2 bg-none py-6 px-4 text-4xl text-white hover:cursor-pointer hover:text-4xl hover:overline hover:transition-all">
-            <AiTwotoneHome />
             <Link
               onClick={handleClick}
               to="about"
@@ -100,7 +106,6 @@ const Nav = () => {
 
         <li>
           <button className=" flex w-full items-center gap-2 bg-none py-6 px-4 text-4xl text-white hover:cursor-pointer hover:text-4xl hover:overline hover:transition-all">
-            <GiStrong />
             <Link
               onClick={handleClick}
               to="skills"
@@ -116,7 +121,6 @@ const Nav = () => {
 
         <li>
           <button className=" flex w-full items-center gap-2 bg-none py-6 px-4 text-4xl text-white hover:cursor-pointer  hover:text-4xl hover:overline hover:transition-all">
-            <BsFillGrid1X2Fill />
             <Link
               onClick={handleClick}
               to="projects"
@@ -130,6 +134,9 @@ const Nav = () => {
           </button>
         </li>
       </ul>
+
+      {/* SOCIAL ICONS */}
+      <Sidebar />
     </header>
   );
 };

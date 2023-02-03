@@ -1,17 +1,17 @@
-import Nav from "./components/Navigation/Nav";
-import Skills from "./components/Skills/Skills";
-import Projects from "./components/Projects/Projects";
-import About from "./components/About/About";
+import Nav from "./components/Nav";
+import Home from "./components/Home";
+import TechSkills from "./components/TechSkills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App flex">
+    <div className="App">
       <Nav />
-      <div className="main-container mt-26 mx-4 flex w-full shrink flex-col gap-96 border border-white pt-40 pb-40">
-        <About />
-        <Skills />
-        <Projects />
-      </div>
+      <Home />
+      <TechSkills />
+      <Projects />
+      <Contact />
     </div>
   );
 }
