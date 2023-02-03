@@ -44,7 +44,6 @@ const Contact = () => {
         />
         <button
           type="submit"
-          tabIndex="4"
           className=" mx-auto mt-2 flex items-center border-2 border-email bg-navhover px-4 py-3 text-white hover:bg-email"
         >
           Let's Connect
