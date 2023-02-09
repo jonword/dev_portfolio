@@ -19,7 +19,7 @@ module.exports = {
       tailwind: "#00B4B6",
     },
     fontFamily: {
-      sans: ["Arial", "sans-serif"],
+      barlow: ["Barlow", "sans-serif"],
     },
     extend: {},
   },
