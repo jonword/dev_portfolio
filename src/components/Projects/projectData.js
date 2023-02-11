@@ -20,7 +20,7 @@ const projects = [
     image: ecommerce,
     alt: "E-Commerce project",
     techList: "React, TypeScript, Redux, Tailwind",
-    description: "A responsive web-page with cart functionality",
+    description: "A responsive product page with a functional cart",
     live: "https://jonword-ecommerce-spa.netlify.app",
     repo: "https://github.com/jonword/Ecommerce-product",
   },
