@@ -22,8 +22,8 @@ const projects = [
     techList: "React, TypeScript, Redux, CSS",
     description:
       "A responsive web-page that allows you to add the item to your cart and updates the cart accordingly.",
-    live: "https://jonword-e-commerce.netlify.app",
-    repo: "https://github.com/jonword/e-commerce-page",
+    live: "https://jonword-ecommerce-spa.netlify.app",
+    repo: "https://github.com/jonword/Ecommerce-product",
   },
 ];
 
