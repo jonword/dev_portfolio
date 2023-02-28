@@ -36,7 +36,7 @@ const Nav = () => {
               to="skills"
               spy={true}
               smooth={true}
-              offset={-150}
+              offset={100}
               duration={500}
             >
               <p>Skills</p>
@@ -63,7 +63,7 @@ const Nav = () => {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={100}
               duration={500}
             >
               <p>Contact</p>

@@ -6,13 +6,13 @@ import reactImg from "../assets/images/skill_images/react.png";
 import tsImg from "../assets/images/skill_images/ts.png";
 import tailwindImg from "../assets/images/skill_images/tailwind.png";
 import reduxImg from "../assets/images/skill_images/redux.png";
-import nodeImg from "../assets/images/skill_images/node.png";
+import nextImg from "../assets/images/skill_images/next.png";
 
 const TechSkills = () => {
   return (
     <div id="skills">
       {/* CONTAINER */}
-      <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col items-center justify-center p-4 text-white">
+      <div className="mx-auto flex h-screen w-full max-w-[1000px] flex-col items-center justify-center p-4 text-white">
         <p className="inline text-4xl font-bold ">Skills</p>
         <p className="py-4">
           As a frontend developer, I have experience with these technologies.
@@ -41,7 +41,7 @@ const TechSkills = () => {
             <img src={reduxImg} className="h-16 w-16" />
           </div>
           <div>
-            <img src={nodeImg} className="h-16 w-16" />
+            <img src={nextImg} className="h-16 w-16" />
           </div>
         </div>
       </div>

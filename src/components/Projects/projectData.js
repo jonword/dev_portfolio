@@ -1,5 +1,5 @@
-import ecommerce from "../../assets/images/projects/ecommerce.jpg";
 import reddit from "../../assets/images/projects/reddit-lite.jpg";
+import drumshop from "../../assets/images/projects/drumshop.png";
 
 const projects = [
   {
@@ -16,13 +16,13 @@ const projects = [
 
   {
     id: 2,
-    title: "E-Commerce Product Page",
-    image: ecommerce,
-    alt: "E-Commerce project",
-    techList: "React, TypeScript, Redux, Tailwind",
-    description: "A responsive product page with a functional cart",
-    live: "https://jonword-ecommerce-spa.netlify.app",
-    repo: "https://github.com/jonword/Ecommerce-product",
+    title: "Drumshop",
+    image: drumshop,
+    alt: "Drumshop project",
+    techList: "React, Nextjs, TypeScript, Tailwind",
+    description: "A responsive e-commerce web application.",
+    live: "https://next-ecommerce-ds.vercel.app",
+    repo: "https://github.com/jonword/next-ecommerce-ds",
   },
 ];
 
