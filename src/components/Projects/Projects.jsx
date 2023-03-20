@@ -9,16 +9,16 @@ const Projects = () => {
         <div className="mx-auto flex h-full w-full max-w-[1000px] flex-col justify-center p-4 text-white">
           <p className="text-center text-4xl font-bold">Projects</p>
           <div className="flex shrink flex-col items-center justify-center gap-12 p-4 lg:flex-row">
-            {projectData.map((project) => (
+            {projectData.map((p) => (
               <Project
-                key={project.id}
-                title={project.title}
-                image={project.image}
-                alt={project.alt}
-                techList={project.techList}
-                description={project.description}
-                live={project.live}
-                repo={project.repo}
+                key={p.id}
+                title={p.title}
+                image={p.image}
+                alt={p.alt}
+                techList={p.techList}
+                description={p.description}
+                live={p.live}
+                repo={p.repo}
               />
             ))}
           </div>

@@ -14,7 +14,7 @@ const TechSkills = () => {
       {/* CONTAINER */}
       <div className="mx-auto flex h-screen w-full max-w-[1000px] flex-col items-center justify-center p-4 text-white">
         <p className="inline text-4xl font-bold ">Skills</p>
-        <p className="py-4">
+        <p className="py-4 text-center">
           As a frontend developer, I have experience with these technologies.
         </p>
 
