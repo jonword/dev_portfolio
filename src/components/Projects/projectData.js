@@ -19,7 +19,7 @@ const projects = [
     title: "Drumshop",
     image: drumshop,
     alt: "Drumshop project",
-    techList: "React, Nextjs, TypeScript, Tailwind",
+    techList: "Nextjs, React,TypeScript, Prisma, Supabase, Tailwind",
     description: "A responsive e-commerce web application.",
     live: "https://next-ecommerce-ds.vercel.app",
     repo: "https://github.com/jonword/next-ecommerce-ds",

@@ -9,7 +9,7 @@ const Project = (props) => {
         <h3 className="mt-2">{title}</h3>
       </header>
       <img src={image} alt={alt} className="mt-4 mb-2 pl-2 pr-2" />
-      <p className="mb-2 text-sm italic text-navhover">
+      <p className="mb-2 text-center text-sm italic text-navhover">
         Tools used: {techList}
       </p>
       <p className="pb-4 text-center">{description}</p>
