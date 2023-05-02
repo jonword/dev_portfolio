@@ -21,7 +21,7 @@ const projects = [
     alt: "Drumshop project",
     techList: "Nextjs, React,TypeScript, Prisma, Supabase, Tailwind",
     description: "A responsive e-commerce web application.",
-    live: "https://next-ecommerce-ds.vercel.app",
+    live: "https://drumshop.vercel.app",
     repo: "https://github.com/jonword/next-ecommerce-ds",
   },
 ];
