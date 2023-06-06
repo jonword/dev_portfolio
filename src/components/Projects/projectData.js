@@ -10,7 +10,7 @@ const projects = [
     techList: "React, Redux, CSS",
     description:
       "A light version of the Reddit app with a functional search bar.",
-    live: "https://jonword-reddit-lite.netlify.app",
+    live: "https://redditapp-jonword.vercel.app",
     repo: "https://github.com/jonword/redditclient",
   },
 
