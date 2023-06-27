@@ -42,6 +42,7 @@ const Socials = () => {
             <a
               className="flex w-full items-center justify-between text-white hover:text-navhover"
               href="https://drive.google.com/file/d/1sJD1Vz-Oio_6bF_gpvhBVIJBnwzCcm_D/view?usp=sharing"
+              target="_blank"
             >
               <BsFillPersonLinesFill size={30} />
             </a>
