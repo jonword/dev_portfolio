@@ -15,7 +15,7 @@ const Home = () => {
         </h2>
         <p className="max-w-[700px] shrink flex-wrap py-4 text-white">
           I'm a self taught software developer with a passion and focus on the
-          frontend of web appllications.
+          frontend of web applications.
         </p>
         <Socials />
       </div>
